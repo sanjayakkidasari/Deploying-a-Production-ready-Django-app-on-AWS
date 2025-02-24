@@ -9,7 +9,7 @@ Following this tutorial, you will have an application that has:
   - A custom domain name
   - Continuous deployment with Github Actions/SSM Agent
 
-	  We have provided a dummy repo to follow along with [here](https://github.com/rmiyazaki6499/django-app.git), but feel free to apply it to your own application as necessary.
+	  We have provided a dummy repo to follow along with [here](https://github.com/sanjayakkidasari/django-app.git), but feel free to apply it to your own application as necessary.
 
 
 ## Table of Contents
@@ -75,7 +75,7 @@ django-app
 Start by cloning the project with the command:
 
 ```
-$ git clone https://github.com/rmiyazaki6499/django-app.git
+$ https://github.com/sanjayakkidasari/django-app.git
 ```
 
 ## Previewing the `django-app` project with Docker
@@ -438,7 +438,7 @@ Installing Python 3, PostgreSQL, NGINX and Gunicorn:
 Recall the steps earlier we did with the dummy project on our local machine. We will repeat that on the EC2 instance.
 
 ```
-% git clone https://github.com/rmiyazaki6499/django-app.git
+% git clone https://github.com/sanjayakkidasari/django-app.git
 % python3 -m venv env
 % source env/bin/activate
 % pip3 install -r requirements.txt
